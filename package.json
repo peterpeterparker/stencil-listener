@@ -2,8 +2,8 @@
   "name": "stencil-listener",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
   "es2017": "dist/esm/index.mjs",
   "types": "dist/types/index.d.ts",
@@ -21,8 +21,9 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate"
   },
-  "devDependencies": {
-    "@stencil/core": "^1.17.3"
-  },
-  "license": "MIT"
+  "devDependencies": {},
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/core": "^2.0.3"
+  }
 }
